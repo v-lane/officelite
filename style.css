@@ -15,7 +15,7 @@
 }
 
 body {
-  background: linear-gradient(var(--light-gray) 75%, var(--dark-gray) 25%);
+  background: linear-gradient(var(--light-gray) 70%, var(--dark-gray) 30%);
   font-family: var(--main-font);
 }
 
@@ -26,15 +26,67 @@ h1 {
 
 .btn {
   --bs-btn-font-weight: 700;
+  padding: 1em 3em;
+  border-radius: 10em;
+}
+
+.btn-1 {
   --bs-btn-color: var(--white);
   --bs-btn-bg: var(--primary-blue);
   --bs-btn-hover-color: var(--bs-btn-color);
   --bs-btn-hover-bg: var(--secondary-blue);
   --bs-btn-hover-border-color: var(--bs-btn-color);
-  --bs-btn-active-color: var(--bs-btn-hover-color);
-  --bs-btn-active-bg: var(--bs-btn-bg);
+  --bs-btn-active-color: var(--primary-blue);
+  --bs-btn-active-bg: var(--light-blue);
+  --bs-btn-active-border-color: var(--bs-btn-color);
+}
+
+.btn-card-odd {
+  --bs-btn-color: var(--primary-blue);
+  --bs-btn-bg: var(--lighter-blue);
+  --bs-btn-hover-color: var(--white);
+  --bs-btn-hover-bg: var(--secondary-blue);
+  --bs-btn-hover-border-color: var(--light-blue);
+  --bs-btn-active-color: var(--white);
+  --bs-btn-active-bg: var(--primary-blue);
+  --bs-btn-active-border-color: var(--bs-btn-bg);
+
+  font-size: .9rem;
+}
+
+.btn-card-even {
+  --bs-btn-color: var(--primary-blue);
+  --bs-btn-bg: var(--white);
+  --bs-btn-hover-color: var(--bs-btn-color);
+  --bs-btn-hover-bg: var(--lighter-blue);
+  --bs-btn-hover-border-color: var(--light-blue);
+  --bs-btn-active-color: var(--bs-btn-color);
+  --bs-btn-active-bg: var(--light-blue);
   --bs-btn-active-border-color: var(--bs-btn-color);
 
-  padding: 1em 3em;
-  border-radius: 10em;
+  font-size: .9rem;
+}
+
+.card {
+  background-color: var(--white);
+  border: none;
+  border-radius: 15px;
+}
+
+.card:nth-of-type(even) {
+  background-color: var(--primary-blue);
+  color: var(--white);
+}
+
+.card p {
+  font-size: .8rem;
+}
+
+.card .h2 {
+  font-weight: 700;
+  font-size: 2.5rem;
+}
+
+.h5 {
+  font-weight: 700;
 }

@@ -1,0 +1,15 @@
+:root {
+--primary-blue: #5175FF;
+--secondary-blue: #829CFF;
+--light-blue: #C1CFFF;
+--lighter-blue: #E4EAFF;
+--dark-gray: #1C1F2C;
+--gray: #212529;
+--light-gray: #F8F8F8;
+--white: #FFFFFF;
+
+}
+
+body {
+  background: linear-gradient(var(--light-gray) 75%, var(--dark-gray) 25%)
+}

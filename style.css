@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
 :root {
 --primary-blue: #5175FF;
 --secondary-blue: #829CFF;
@@ -8,8 +10,31 @@
 --light-gray: #F8F8F8;
 --white: #FFFFFF;
 
+--main-font: "Kumbh Sans", sans-serif;
+
 }
 
 body {
-  background: linear-gradient(var(--light-gray) 75%, var(--dark-gray) 25%)
+  background: linear-gradient(var(--light-gray) 75%, var(--dark-gray) 25%);
+  font-family: var(--main-font);
+}
+
+h1 {
+  font-weight: 700;
+  font-size: 3rem;
+}
+
+.btn {
+  --bs-btn-font-weight: 700;
+  --bs-btn-color: var(--white);
+  --bs-btn-bg: var(--primary-blue);
+  --bs-btn-hover-color: var(--bs-btn-color);
+  --bs-btn-hover-bg: var(--secondary-blue);
+  --bs-btn-hover-border-color: var(--bs-btn-color);
+  --bs-btn-active-color: var(--bs-btn-hover-color);
+  --bs-btn-active-bg: var(--bs-btn-bg);
+  --bs-btn-active-border-color: var(--bs-btn-color);
+
+  padding: 1em 3em;
+  border-radius: 10em;
 }

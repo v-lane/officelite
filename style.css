@@ -15,7 +15,7 @@
 }
 
 body {
-  background: linear-gradient(var(--light-gray) 70%, var(--dark-gray) 30%);
+  background: linear-gradient(var(--light-gray) 65%, var(--dark-gray) 35%);
   font-family: var(--main-font);
 }
 
@@ -70,7 +70,8 @@ h1 {
 .card {
   background-color: var(--white);
   border: none;
-  border-radius: 15px;
+  border-radius: 20px;
+  margin-top: 3em;
 }
 
 .card:nth-of-type(even) {

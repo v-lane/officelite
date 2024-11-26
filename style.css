@@ -91,3 +91,7 @@ h1 {
 .h5 {
   font-weight: 700;
 }
+
+input, select {
+  margin: .5em 0 1em;
+}

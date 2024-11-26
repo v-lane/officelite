@@ -17,6 +17,7 @@
 body {
   background: linear-gradient(var(--light-gray) 65%, var(--dark-gray) 35%);
   font-family: var(--main-font);
+  min-height: 100vh;
 }
 
 h1 {
@@ -94,4 +95,14 @@ h1 {
 
 input, select {
   margin: .5em 0 1em;
+}
+
+#signup-p {
+  max-width: 80ch;
+}
+
+@media screen and (min-width: 992px) {
+  #sign-up-page {
+    background: linear-gradient(.25turn, var(--light-gray) 65%, var(--dark-gray) 35%);
+  }
 }

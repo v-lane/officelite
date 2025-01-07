@@ -1,4 +1,3 @@
 # Officelite
 
-## Objective
-Using the provided files, create a two-page responsive site that closely resembles the mockups. 
+In this Web Design assignment, I was given basic starter files. I created a two-page responsive site that closely resembled the mockups. Bootstrap was used extensively with some custom CSS to create a responsive design. 
